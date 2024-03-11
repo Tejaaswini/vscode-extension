@@ -1,0 +1,21 @@
+{
+  "name": "eink-display",
+  "displayName": "eink-display",
+  "description": "an eink display for vscode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "eink-display",
+        "uiTheme": "vs",
+        "path": "./themes/eink-display-color-theme.json"
+      }
+    ]
+  }
+}
